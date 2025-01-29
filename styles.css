@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  background: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.banner h1 {
+  margin: 0;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: white;
+}
+
+.produto {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  background-color: #f0f0f0; /* Cor de fundo para os placeholders */
+}
+
+h3, p {
+  color: #333;
+}
+
+button {
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.preco {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #555;
+}
