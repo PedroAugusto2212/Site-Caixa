@@ -37,26 +37,38 @@ nav ul li a {
   margin: 0;
 }
 
-.produtos {
+.categorias {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   padding: 20px;
   background-color: white;
 }
 
-.produto {
+.categoria {
   background: #fff;
   border: 1px solid #ddd;
   padding: 15px;
   text-align: center;
-  width: 200px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.produto img {
+.categoria img {
   width: 100%;
+  max-width: 200px;
   height: auto;
-  background-color: #f0f0f0; /* Cor de fundo para os placeholders */
+  border-radius: 5px;
 }
+
+.categoria h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
 
 h3, p {
   color: #333;
